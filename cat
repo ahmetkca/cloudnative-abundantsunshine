@@ -1,0 +1,881 @@
+commit e075f8a722f90273e2fd5f60aee51170b9e3f020
+Author: Cornelia Davis <cornelia@weave.works>
+Date:   Sun Apr 19 20:51:25 2020 -0700
+
+    Update to new java. Update DB ID strategy.
+
+commit 484949ccfc68025572dc4d177205a29645acd832
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Feb 10 19:01:18 2019 -0800
+
+    Upgrade to Spring Boot 2.0 and chapter edits.
+
+commit e30b074ff3c049b5c8c7e8089eac4fcc83284623
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Feb 10 12:19:07 2019 -0800
+
+    naming fixes.
+
+commit a59e9a92ac2c0c0f6d74d929a5d1cd61e5a7f31e
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Feb 2 17:17:34 2019 -0800
+
+    Update redis connection factory to spring boot 2.0
+
+commit eeac2cec254cc55f27814dd24d33625c4424d1da
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Dec 3 16:18:23 2017 -0800
+
+    Move token store out to stateful service (Redis).
+
+commit cf52957877f1e560e8d0747ae57912e5f12dfc83
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Feb 2 14:44:19 2019 -0800
+
+    insert placeholder urls into Kubernetes deployments.
+
+commit ddadab53e59078491d7bd231381be0394168337d
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Feb 2 14:40:05 2019 -0800
+
+    add Kubernetes deployment.
+
+commit e05ef80f6173a2d0a8ca7db6b4a775dbb5e41b2a
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Feb 2 08:19:41 2019 -0800
+
+    (re)update name of Connections' Posts service.
+
+commit c86fa49a2da6d47c64910893f64f3a7e19fdd0b5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Jan 31 23:24:31 2019 -0800
+
+    add authentication.
+
+commit 78c77fa535badf970395e0f3166c20b048db1b7e
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Feb 2 19:26:43 2019 -0800
+
+    clean up now unused env var defaults.
+
+commit 8acfa64f4292f12be906e3ae7256ac587b2ae034
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Jan 31 22:44:25 2019 -0800
+
+    fix url and update sample data
+
+commit 55759cbb3a81413b87f286facfbe61dac77f46c5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Jan 31 22:39:17 2019 -0800
+
+    rename package to be consistent with later chapters
+
+commit a888e66836b7afcc5666f56d7ff5173ba7efbf87
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Jan 31 22:36:02 2019 -0800
+
+    upgrade to spring boot 2.0
+
+commit 557a42ca5262bdcea78757b17ce1c34880831c8a
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 28 12:01:54 2019 -0800
+
+    update connections posts URL
+
+commit 749093501d3224100bfa810c9af86ac2e76ea70b
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 21 17:12:49 2019 -0800
+
+    Bump eventdriven module to spring boot 2.0
+
+commit 0882aa88b7e402085602445897827885bf1880db
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 21 16:59:06 2019 -0800
+
+    upgrade to spring boot 2.0
+
+commit b770da482bbae90bfd1ed4133993d1bfea7ec4aa
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 21 09:15:18 2019 -0800
+
+    Renaming to be consistent with later chapters.
+
+commit 496ebe3f69cef49599fb99029b441e3f1b1b3f24
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 21 08:58:55 2019 -0800
+
+    Update sample data
+
+commit 6b8ca683a6011d98e2456682af05b0d1af88acb5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 21 08:38:01 2019 -0800
+
+    renaming for consistency with later chapters
+
+commit 551d99b57299ddc417289bfd4e03938a9291bd61
+Merge: c7f02fa eeefc80
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jan 19 20:13:23 2019 -0800
+
+    Merge eventlog module (ch 12)
+
+commit eeefc8060c6deb4bb5577586b5082f32928f9b04
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jan 19 20:12:26 2019 -0800
+
+    Fix posts rite controller deserialization.
+
+commit 80c32b80a99b9b83b15cc98a3392ffc542a48782
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Nov 12 19:18:11 2018 -0800
+
+    Consolidate kafka service and deployment. Clean up scripts.
+
+commit 3421842d2d392b5d0f4810b4497547168a53a46c
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Nov 12 19:04:54 2018 -0800
+
+    Add kubernetes deployment.
+
+commit 892af732d5015e94ab35bf81dffd073ba6bd8a75
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 10 17:20:42 2018 -0800
+
+    Rename localstorage packages to projection
+
+commit e92a493edb4ef0f7c1389fa82e1a76efc30e4cc9
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 10 17:07:51 2018 -0800
+
+    Refactor to make event sourced.
+
+commit d796eb2598fd7f5d7e114dbb12dcaeca0116a5d3
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Nov 8 10:44:27 2018 +0100
+
+    Fix log message typo. Add sleep in data load script.
+
+commit c7f02fada9fe5d02201e6f783b38a0f7ac8d331d
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jan 13 08:22:12 2019 -0800
+
+    Prepping for merge
+
+commit 14fc4dcbd3c6498e409153ead0a39f256a7cebb9
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jan 13 06:22:43 2019 -0800
+
+    cleanup
+
+commit 70c7bb9a93cd22bce710c8b4a5ed8bfa48878e74
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jan 13 06:20:41 2019 -0800
+
+    add troubleshooting project
+
+commit 72255cf85c63ce358397204808557a6e4ca0644c
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jan 13 05:58:19 2019 -0800
+
+    add troubleshooting module to project
+
+commit 6e5cddc917448e46d2b1c3d3ced03efda1d9bcb6
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Nov 4 20:37:33 2018 +0100
+
+    Move data storage classes into sub-package
+
+commit 2d96f78388376999dde5a02b721c7a62e5b1d2b3
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Oct 26 21:22:24 2018 -0700
+
+    Move all events to kafka. Code sample complete.
+
+commit fcc8ec101e41cda6c24b097909ffd71c5cd6a251
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 21 23:14:30 2018 -0700
+
+    Clean local storage objects and queries in Connections Posts
+
+commit 3723eef2c7b00e596bb9b9fe18a735f192ad3a34
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 21 15:09:51 2018 -0700
+
+    clean local storage objects.
+
+commit a4287ee2704c21621bff6b4e1b7cee3b454b7abf
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 21 14:54:52 2018 -0700
+
+    Decople User (cache) from Posts.
+
+commit 06e9b2caaf3d00f93f16177c06fb522054d2f702
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 21 07:46:03 2018 -0700
+
+    First event-driven communication complete.
+
+commit 0d1e3c2e1172490dca35c62c7697beadd6c7a9ea
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Oct 13 21:05:54 2018 -0700
+
+    Add eventlog module to project
+
+commit 1789ac168a2938cf32211914b73dfa5b39396b22
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Oct 13 21:05:30 2018 -0700
+
+    Remove last exposure of internal ids (i.e. user usernames instead of ids).
+
+commit 976804c406b3bc0eefaf9c7b8a75eaf2c27695d1
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Oct 13 18:55:31 2018 -0700
+
+    A bit of project cleanup.
+
+commit 342b93e661dd2b0c1ab30a5513552259815411c1
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Oct 1 21:32:28 2018 +0800
+
+    Clean up read, write and event handler controllers.
+
+commit 8c3d311706142fbc3a423ed318c953b5c8ed1ad0
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Oct 1 20:44:10 2018 +0800
+
+    Refactor some DB schemas. Add event from Connections to Posts for user. Begin cleanup of APIs, to not expose interal ids.
+
+commit eb5a5134baeeb623cc5185f07d349bd1923d680f
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Sep 30 20:51:54 2018 +0800
+
+    Initial commit of Event Log work. Microservices still connecting directly (no messaging or event log service), but have decoupled message format.
+
+commit 37514ea4629ee7a698d23ddf0f3d0f010e522ba5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Aug 11 12:03:01 2018 -0700
+
+    Add fallback behavior onto circuit breaker.
+
+commit 1163e91df4391d2e2b83d8fbe68e609d2cb21fdd
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Aug 11 11:34:31 2018 -0700
+
+    Posts running with circuit breaker. No fallback behavior.
+
+commit 6503031eee757c174d17f5ae98d449c4feaf9bda
+Merge: e4fc80c 56897ae
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Aug 6 04:35:38 2018 -0700
+
+    Merge branch 'master' into circuitbreaker
+
+commit 56897aefa6091f45dbcfe1d25a21a11efecc7d80
+Merge: d86e819 01fff08
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Aug 5 21:27:44 2018 -0700
+
+    merge chapter 9 cleanups.
+
+commit 01fff08268fb12ba97c5c23d564c744e087ded09
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Aug 5 21:21:22 2018 -0700
+
+    Add fallback behavior to retry logic.
+
+commit 9608ef025aa4465ece096dfb7801a87b9967cfda
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Aug 5 20:47:58 2018 -0700
+
+    Add kinder retries with Spring Retry
+
+commit 7e795315e657a9850239cf60905b23bc6245485b
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Aug 5 20:37:53 2018 -0700
+
+    Script to break network between posts and mysql
+
+commit a428a2d91874744cd7c2f510a55517b885df2dfe
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Aug 5 15:43:27 2018 -0700
+
+    Naive retries under load
+
+commit 5f65d2ccfc48c3ca77ebb47853dce704bda3bfd5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Aug 5 15:40:46 2018 -0700
+
+    No fallback behavior on downstream connection failure (yet).
+
+commit fdfb47aa50ef53061cde4b579f7784ec48421855
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Aug 5 11:36:42 2018 -0700
+
+    Clean up first chapter 9 example
+
+commit 187f89eb56cb4a17972207886795806223fcf49d
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Aug 4 13:37:20 2018 -0700
+
+    release HTTP connection in retry loop
+
+commit e4fc80c5427521f0315240f51f5aa02e8d4a3d04
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jul 29 21:46:52 2018 -0700
+
+    Circuit Breaker implementation returning sponsored content when DB is unavailable.
+
+commit b428f697837be2e7bee2f8bb8cd6c7ed8fc074f1
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jul 29 06:29:21 2018 -0700
+
+    Initial circuit breaker impl
+
+commit d86e819ef56e6b152b4d5aae7aac9cd6d0e4fad7
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jul 21 21:40:36 2018 -0700
+
+    Add fallback behavior for Posts service timeout problems
+
+commit bbf3633bf76a21bdd7fe8743353fc4121bf4a2a7
+Merge: 02d4c9e 24fc0cb
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jul 6 12:53:12 2018 -0700
+
+    Post infection heals on its own after some time.
+
+commit 02d4c9ed41009f07ee75ff27e7968a59b82aa9b9
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jul 6 11:31:17 2018 -0700
+
+    Replace naive retries with kinder retries (using Spring Retry).
+
+commit 064e7a1b9143e3b087fd82cdbda312b18e99b87e
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jul 6 11:10:57 2018 -0700
+
+    Point to specific posts image
+
+commit 7c2d56c796893fb49cb0ea6a02703c6f7c1d664b
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jul 6 11:03:26 2018 -0700
+
+    Minor tweak in Posts timeout. Ramping load.
+
+commit 24fc0cb355820910a89b57a21a886b05b0249c7a
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jul 6 09:00:39 2018 -0700
+
+    final request resilience code
+
+commit 1c032ffeac4a35e57820caf9f85662b384afa535
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jul 2 13:34:11 2018 -0700
+
+    Replace naive retries with kinder retries (using Spring Retry).
+
+commit 6877bc27d5778f9c1aea50fdccedfba2fd279c29
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jul 1 22:27:35 2018 -0700
+
+    Add load testing. Large deployment.
+
+commit 1882c9b8ccdf07f81037dbe99665780208ebb18e
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jul 1 17:44:03 2018 -0700
+
+    Point to specific docker image tag
+
+commit 5c1486cd161ecd892bd7dc94a811e2a8b7476281
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Jul 1 17:35:02 2018 -0700
+
+    Add naive retry implementation. Small K8s deployment.
+
+commit 79f5ab07395d81d5919dbb6c0e29fa6ac11e8ea5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun May 6 14:33:49 2018 -0700
+
+    Insulate ConnectionPosts clients from downstream failures of Posts service.
+
+commit 09bbb0441022154c752bffb061caa073accd59a6
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat May 5 11:46:10 2018 -0700
+
+    Add healing endpoint. Have GET hang when service is 'unhealthy'
+
+commit 46ebb7da18ac4363675f0221a201f27ceb7fe1d7
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat May 5 11:45:12 2018 -0700
+
+    Bump mysql to latest 5.7 release
+
+commit e4cc526f9ee4ef1c30f2950a3a5aa0a1ce962680
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat May 5 11:43:16 2018 -0700
+
+    Point to new docker images
+
+commit b53519d57d815f3df9e23b6ef06ade83939aaae7
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat May 5 10:17:46 2018 -0700
+
+    Bring over latest config.
+
+commit 4041a7bb33479ba1fd8b2b27b72022478e5b9ad5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat May 5 05:59:14 2018 -0700
+
+    Initial commit of request resilience module (chapter 9).
+
+commit 05748b25323d9efb06f57dae3819971d10338401
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat May 5 05:47:14 2018 -0700
+
+    Correct SCCS URL - uses KubeDNS now.
+
+commit 34a417fbde262cfb0235a916f5a1dc2db5c28a6a
+Merge: f71b98d e4ad675
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Apr 9 19:34:54 2018 -0700
+
+    Merge branch 'service-discovery'
+
+commit f71b98d8613317bb0a2c6bd20bb82bba804e5b18
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Apr 9 18:46:23 2018 -0700
+
+    clean up docker image version.
+
+commit 87f9e85da6359e6881131389995b6be39e09889a
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Apr 9 18:41:45 2018 -0700
+
+    Rename version trigger ENV var
+
+commit 9032e05da99075acdd59336f99d4a34b1e5f7134
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Apr 9 18:40:57 2018 -0700
+
+    Change infected behavior to no response.
+
+commit e4ad675043c513d7100b6ab007a492d3e36d4dba
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Apr 9 18:22:25 2018 -0700
+
+    Deployment manifests and scripts only.
+
+commit 41be825527e4cc794e1b7f75505941ab6fbe89b3
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jan 27 14:10:54 2018 -0800
+
+    Add health check endpoint and lifeness probe.
+
+commit eba3201030f782d5a329d136fe1c5c72236d5580
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jan 26 02:46:41 2018 -0800
+
+    Update connectionPosts to use first secret for each of Posts and Connections.
+
+commit 6d350fc8b5dfb48257b3685acff5f2b9433ac959
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jan 26 02:08:57 2018 -0800
+
+    Implement pair of secrets in connections service.
+
+commit bb31923a95a89fe3fe78a03d627e0659bd9415ab
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jan 26 02:07:45 2018 -0800
+
+    Light cleaup of unused imports and declarations.
+
+commit db56e13b5fafc7cc858b1e7f58686056f6418404
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Jan 26 01:15:09 2018 -0800
+
+    Add app lifecycle module. Implemented first chunk - Posts and ConnectionPosts credential rotation.
+
+commit 3ca0d37e654f9d462a73edc7452cf4ad260075d2
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 8 23:48:40 2018 -0800
+
+    bump version to 0.0.2
+
+commit 3c818b61d0e5b1774fbfb0b69de3b1954e2410f3
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 8 22:34:49 2018 -0800
+
+    pull example 2 code to HEAD, with a bit of spit and polish again
+
+commit 6211ed1e56c8ec93210409944b2cda017a968ab7
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Jan 8 21:56:30 2018 -0800
+
+    spit and polish for sys config sample (no sccs)
+
+commit 7eb1632d3f2b2701f15e23278c62e0deeac378bc
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jan 6 17:14:18 2018 -0800
+
+    Add some simple versioning so that it's part of the Docker image.
+
+commit 64a4592eba3a84d8bb7b71e5d29e50753e3a2fcb
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jan 6 17:13:39 2018 -0800
+
+    Removed app config to have chapter 6 sample 1 with cleaned up prop files and the like. This will be version 0.0.1 of the resultant images.
+
+commit 7f7e3e36088b1567ec3300a33e5e910bbf7c01b4
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jan 6 16:39:26 2018 -0800
+
+    bit of spit and polish
+
+commit 9271e9c088bbf2a78b87cfd09b152849c05221fa
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Jan 6 16:38:08 2018 -0800
+
+    Script to delete Kubernetes deployment
+
+commit 9df96af97fbe38482da31ebb08eadbc4c25af79c
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 21:43:43 2017 -0800
+
+    Kubernetes deployment.
+
+commit 1fb9b3c386bb9f44901400f84ab87a86164f890a
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 20:11:41 2017 -0800
+
+    include secrets property keys in property file (as spec).
+
+commit 0c88bb8844eb7e31f6127cf437e45f49a1de2166
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 20:09:03 2017 -0800
+
+    Remove coordinates of the config server from the deployable artifact (bootstrap.yml)
+
+commit 79d0aa65b751069709a345a3eaa0551f6cf4217d
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 19:00:05 2017 -0800
+
+    Delete old app config sample
+
+commit 3c2ea730e1bd59e292d343028b66f97dbd177c08
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 18:58:08 2017 -0800
+
+    Add secrets when calling Posts and Connections.
+
+commit 58e3b48467438ae7ab97aebc7b7ee9d56d6351b7
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 18:41:41 2017 -0800
+
+    Finish securing Posts with a secret. Clean up port log output.
+
+commit 5f6017998678bbfb13cd81892e34e600d39f0686
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 18:32:19 2017 -0800
+
+    Secure connections service with a secret. Fixed port log output.
+
+commit caf76b95f083ea0d613273b76c116c156745a2ed
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 17:07:16 2017 -0800
+
+    Protect Posts service with a secret.
+
+commit 8bc5369e31e41e172606835d4f23d1cf02a36334
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Thu Dec 28 17:01:57 2017 -0800
+
+    Script to clean up complete deployment.
+
+commit 72c1928a75cad7fa26be8fd8dbf17270bad631dc
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Wed Dec 27 19:48:26 2017 -0800
+
+    Clean up IP and PORT system configuration.
+
+commit 167fc30ee1bae62831a4edcb10f0b0e077ddc24c
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Wed Dec 27 19:47:03 2017 -0800
+
+    Add app config module (chapter 6)
+
+commit 428cb015f0b5ba9edf6fd017f273931fd29552c0
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Dec 3 16:18:23 2017 -0800
+
+    Move token store out to stateful service (Redis).
+
+commit 354d1aa950a8fc56ac59cc4f24a60d1888daeabb
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Dec 3 12:37:44 2017 -0800
+
+    Insert placeholders for jdbc url and connection and post services.
+
+commit 470892b3ea8f22538b23ae4f5b6b542f4e2c3732
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Dec 3 09:43:02 2017 -0800
+
+    Log access attempts with missing or invalid tokens.
+
+commit bc38119d4d3f45ef24f4da9f3d0b766b9182f978
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Dec 3 09:41:52 2017 -0800
+
+    Add Kubernetes deployments
+
+commit 407c1181b59660e069f451b30d8c27a993923a5c
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Nov 26 19:01:00 2017 -0800
+
+    Rename connectionsPosts package
+
+commit eac14f2b1d614845b6378cf0e3937ceed7abdbcf
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Nov 26 18:46:18 2017 -0800
+
+    Add authentication.
+
+commit 16bb72b5805dd6d730e33355dfef13c128727895
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 25 21:44:08 2017 -0800
+
+    Stop resetting repository population on exit.
+
+commit 68a85c8bb7fe734bfe573d1501c032713409081b
+Merge: 256b35b 0c8b64b
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 25 21:03:32 2017 -0800
+
+    Merge branch 'statelessness'
+
+commit 0c8b64ba869503e73569e993c0a04c2b4713fbeb
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 25 20:58:37 2017 -0800
+
+    Cleanup module, directory and other bits.
+
+commit 62ea47235804afe542d4eb51c4922e7bfd5dc2e0
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 25 17:28:08 2017 -0800
+
+    Remove K8s manifests (they'll come back in a moment).
+
+commit 8c5ec333ae053e8cc0a53a5372ef7982ced35efc
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Nov 24 22:30:08 2017 -0800
+
+    Separate out the connections service
+
+commit 71221eb43f54b96449580eae17ac849377e21743
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Nov 24 22:05:08 2017 -0800
+
+    Break out Post microservice.
+
+commit 256b35b276bc32169ae56372569d20c5584ac485
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Nov 5 19:32:35 2017 -0500
+
+    Deployment of Spring Cloud Config Server and binding of it to my cookbook app.
+
+commit f50c288e364905232b149a6009cfa845c6576396
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Nov 5 18:42:06 2017 -0500
+
+    Move mysql creds into config server.
+
+commit 3be9025a177234ff08287a146432dd48cc2ee5f5
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Nov 5 16:44:22 2017 -0500
+
+    Clean up means of injection of env values
+
+commit da3750375204cdef71b11e98772fd3f14604164d
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Nov 5 11:32:50 2017 -0500
+
+    Start app config example from end of statelessness.
+
+commit c0d5d271f77d10c134c3f9800a3fdabbfebca843
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 4 23:42:05 2017 -0400
+
+    Deployment manifests for Kubernetes and Cloud Foundry.
+
+commit 52e58454cd447354a0e0c5f57fb1794dc1c5bf68
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 4 23:40:56 2017 -0400
+
+    Bind instances to stateful mysql service.
+
+commit b06f8cb6862a71d588507227d948e6c5db68492b
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 4 23:36:22 2017 -0400
+
+    Log instance IP and port.
+
+commit b108c8582e21c6ded236cf88ecce64ba625068af
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 4 23:24:46 2017 -0400
+
+    Add uniqueness constraint on username and eliminated repeated repository population.
+
+commit 281f3c4d72fa6adeacdd97ff9d9aead6be7b0856
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 4 17:36:19 2017 +0000
+
+    Provide property values at startup.
+
+commit 1e2da48718aba7aea1825bba547839e317557e8f
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Nov 4 15:26:30 2017 +0000
+
+    Tests run against H2
+
+commit 6f2b31e0a62175830d21ccef0352fa695bd56f80
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Oct 30 01:54:45 2017 -0700
+
+    Bump Spring Cloud version.
+
+commit b460c1ae9ac3e825aeed0ccff3bc723156018ab1
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Oct 30 01:53:11 2017 -0700
+
+    Rename K8s deployment manifest.
+
+commit 304681a5bb7c4f8394e8caa5af063e9f3f10c7e7
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Oct 28 21:52:54 2017 -0700
+
+    Add IP address to log output.
+
+commit d4754b7440ec24974d750253d8f89a0fbe026d6e
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Oct 28 21:51:40 2017 -0700
+
+    Add Kubernetes deployment manifest
+
+commit b8430daec71edd139cdffdd2741239cdf9044560
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Oct 28 15:07:13 2017 -0700
+
+    Remove login functionality.
+
+commit 7a90a5bebd9cf2b25a3560468ecdc4da5dc87283
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Oct 21 16:05:03 2017 -0700
+
+    Add containerization
+
+commit f6686a976118f035578b74161aa04e4270ac1c4c
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 8 20:27:14 2017 -0700
+
+    Use authenticated username as input instead of in url.
+
+commit 765f0f04bac3565374274b714f5e2d7e2e0d1374
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 8 12:14:20 2017 -0700
+
+    Initial Statelessness sample - based off of Request/Response example.
+
+commit 4bc47db68bb601bfcb9904bd44688f09775f63d3
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 8 11:36:17 2017 -0700
+
+    Some test hygiene.
+
+commit 409bbab4b04b654174be0b822828b7657a973eb1
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 8 08:59:05 2017 -0700
+
+    Fixed test to load full web app context.
+
+commit fe1c28af701bacda631a2c0e653dc93e65a2fd46
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 8 08:23:04 2017 -0700
+
+    Fix artifact name
+
+commit 6ba991a7cc00c554dd58b645746f91ec82531e7a
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Oct 8 08:03:18 2017 -0700
+
+    Support creating post with known timestamp - supports making a replica rather than new post.
+
+commit 1227c375c6a9a18ccd0917729849d721335b36aa
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Fri Sep 22 22:35:07 2017 +0100
+
+    Clean up sample data creation.
+
+commit 9dcce67ee8e5288b4d95261f546fe04199e8391a
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Sep 17 20:45:10 2017 -0700
+
+    Put read and write controllers together - it was a bit premature to separate them here.
+
+commit 92b053aa0dcb33cda4368ae25813cd3132bb4688
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Sep 17 06:24:07 2017 -0700
+
+    A bit of package housekeeping.
+
+commit 92e8822fa2414d4277a12a041ddb1c8edc7ebd95
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Sep 10 17:03:39 2017 -0700
+
+    Remove hacked test.
+
+commit c051538dff26adfc9a7c4d6c9f386b4b82505d6c
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Sep 10 17:02:52 2017 -0700
+
+    Add event generation and event handling
+
+commit 261b93bb4df04a871703f75f90a8ceadb29229d3
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sun Sep 10 12:13:57 2017 -0700
+
+    Add local repository for New Posts microservice.
+
+commit 9c02d81c632643484fbddb91e54f0ce05b3efe68
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Sep 9 12:21:21 2017 -0700
+
+    Start with refactor for event driven approach.
+
+commit 5ef634a202b997cc7c3ba22e8102176a3bbc2703
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Sep 9 12:20:22 2017 -0700
+
+    Change post summary to return user's name, rather than user's username
+
+commit 03cbfcf39e3d7c4739c3db3a25238da337f18148
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Sat Sep 9 12:19:33 2017 -0700
+
+    Add write endpoints
+
+commit 0b7ba40b0c84cf3513df670e0552f84273997d59
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Sep 4 21:27:41 2017 -0700
+
+    Refactor packages to make the distinct microservices clear.
+
+commit 0afd18981877a837dd55769f750280abc3f5a41f
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Sep 4 21:18:12 2017 -0700
+
+    Add NewFromConnections microservice
+
+commit 9194655bed355435759b5ebc8a378318b5b334ed
+Author: Cornelia Davis <cornelia@corneliadavis.com>
+Date:   Mon Sep 4 17:39:13 2017 -0700
+
+    initial commit. Connections and Posts microservices complete. Some extra endpoints for debugging.

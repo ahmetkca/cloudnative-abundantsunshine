@@ -11,7 +11,7 @@ spec:
     targetPort: 8080
   type: NodePort
 ---
-apiVersion: apps/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: posts
@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: posts
-        image: cdavisafc/cloudnative-applifecycle-posts:0.0.2
+        image: ahmetkca/cloudnative-applifecycle-posts0.0.2
         livenessProbe:
           httpGet:
             path: /healthz
@@ -42,10 +42,10 @@ spec:
               fieldRef:
                 fieldPath: status.podIP
           - name: SPRING_APPLICATION_JSON
-            value: '{"spring":{"datasource":{"url":"jdbc:mysql://192.168.99.100:30917/cookbook"}}}'
+            value: '{"spring":{"datasource":{"url":"jdbc:mysql://192.168.49.2:31390/cookbook"}}}'
           - name: SPRING_APPLICATION_NAME
             value: "mycookbook"
           - name: SPRING_CLOUD_CONFIG_URI
-            value: "http://192.168.99.100:30455"
+            value: "http://192.168.49.2:31406"
           - name: VERSIONING_TRIGGER
-            value: "1"
+            value: "3"
